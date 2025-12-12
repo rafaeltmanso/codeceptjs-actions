@@ -1,26 +1,24 @@
-![poster](./.github/poster.png)
+## About
 
-## Sobre
+Continuous Testing Workflow in CodeceptJS on Github Actions
 
-Repositório do treinamento: Workflow de testes contínuos em CodeceptJS no Github Actions
+## Stack
+![CodeceptJS](https://img.shields.io/badge/CodeceptJS-ffa000?style=for-the-badge&logo=codeceptjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white)
 
-## Stacks
 - CodeceptJS
 - Javascript
 - Playwright
 
-## Rodando
+## Running
 
-1. Clonar o repositório, instalar as dependências
+1. Clone the repository, install dependencies
 ```
 npm install
 ```
 
-2. Executar testes em Headless
+2. Run tests in Headless mode
 ```
 npx codeceptjs run --reporter mochawesome 
 ```
-
-<hr>
-Curso disponível em https://qaxperience.com
-
