@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run E2E tests
-      run: npm run test:ct
+      run: npx codeceptjs run
     - uses: actions/upload-artifact@v4
       if: always()
       with:
