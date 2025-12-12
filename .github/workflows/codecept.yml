@@ -23,5 +23,5 @@ jobs:
       if: always()
       with:
         name: codecept-report
-        path: output/
+        path: /output
         retention-days: 30
